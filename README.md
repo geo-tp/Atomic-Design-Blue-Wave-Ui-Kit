@@ -10,5 +10,5 @@ Design : [Created Atomic Design](https://www.figma.com/file/RH3KdfahyoMKOoZr7Vbu
 
 ![](presentation1.png)
 ![](presentation2.png)
-![](presentation3.png)
+![](presentation3.webp)
 
