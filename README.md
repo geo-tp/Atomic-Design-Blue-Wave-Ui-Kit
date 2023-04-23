@@ -1,14 +1,13 @@
-# Atomic Design template
+# Blue Wave Atomic Ui Kit
 
-Website design with atomic architecture
+Blue Wave Ui Kit, react components using atomic architecture.
 
 ## Links
 
-Design : [Created Atomic Design](https://www.figma.com/file/RH3KdfahyoMKOoZr7Vbunh/Atomic?node-id=0%3A1&t=Q5PfnHSRDMXn2Ffh-1)
+Design : [Blue Wave Atomic Design](https://www.figma.com/file/RH3KdfahyoMKOoZr7Vbunh/Atomic?node-id=0%3A1&t=Q5PfnHSRDMXn2Ffh-1)
 
-## Screenshots
+## Atoms
 
 ![](presentation1.png)
-![](presentation2.png)
-![](presentation3.webp)
+
 
