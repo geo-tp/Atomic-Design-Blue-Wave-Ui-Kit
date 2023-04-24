@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Atomic-Design-Blue-Wave-Ui-Kit/static/css/main.e6c13ad2.css",
+    "main.js": "/Atomic-Design-Blue-Wave-Ui-Kit/static/js/main.95251818.js",
+    "static/js/787.cda612ba.chunk.js": "/Atomic-Design-Blue-Wave-Ui-Kit/static/js/787.cda612ba.chunk.js",
+    "static/media/image-example.jpg": "/Atomic-Design-Blue-Wave-Ui-Kit/static/media/image-example.7796920135a0ba67d699.jpg",
+    "static/media/logo.webp": "/Atomic-Design-Blue-Wave-Ui-Kit/static/media/logo.f12385e7405def3e19be.webp",
+    "index.html": "/Atomic-Design-Blue-Wave-Ui-Kit/index.html",
+    "main.e6c13ad2.css.map": "/Atomic-Design-Blue-Wave-Ui-Kit/static/css/main.e6c13ad2.css.map",
+    "main.95251818.js.map": "/Atomic-Design-Blue-Wave-Ui-Kit/static/js/main.95251818.js.map",
+    "787.cda612ba.chunk.js.map": "/Atomic-Design-Blue-Wave-Ui-Kit/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.95251818.js"
+  ]
+}
