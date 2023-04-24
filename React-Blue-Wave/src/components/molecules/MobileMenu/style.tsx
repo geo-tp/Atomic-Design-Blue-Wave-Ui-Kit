@@ -8,4 +8,5 @@ export const StyledMobileMenu = styled.div`
   border-radius: 20px 20px 0px 0px;
   border: 1px solid ${(props) => props.theme.colorBG5};
   height: 40px;
+  max-width: 600px;
 `;

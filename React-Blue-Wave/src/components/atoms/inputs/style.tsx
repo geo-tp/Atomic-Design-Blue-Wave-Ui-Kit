@@ -14,9 +14,7 @@ export const StyledCheckBox = styled.div<{ checked: boolean }>`
     margin-left: 3px;
     background-color: ${(props) =>
       props.checked ? props.theme.colorFont1 : props.theme.colorBG6};
-    border: 1px solid
-      ${(props) =>
-        props.checked ? props.theme.colorBG6 : props.theme.colorFont2};
+    border: 1px solid ${(props) => props.theme.colorFont2};
     width: 24px;
     height: 24px;
     border-radius: 100%;

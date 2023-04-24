@@ -4,6 +4,7 @@ import { Texts } from "./sections/Texts";
 import { Inputs } from "./sections/Inputs";
 import { Images } from "./sections/Images";
 import { Spacers } from "./sections/Spacers";
+import { Molecules } from "./sections/Molecules";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Inputs />
       <Images />
       <Spacers />
+      <Molecules />
     </div>
   );
 }

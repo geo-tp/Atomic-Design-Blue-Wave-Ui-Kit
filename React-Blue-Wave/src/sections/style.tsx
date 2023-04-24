@@ -29,3 +29,12 @@ export const StyledTexts = styled.section`
     }
   }
 `;
+
+export const StyledMolecules = styled.section`
+  /* display: flex;
+  justify-content: space-evenly; */
+  /* & div:first-child {
+    align-items: center;
+    display: flex;
+  } */
+`;

@@ -9,6 +9,7 @@ export const StyledNavBar = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 
   & h1 {
     font-size: 1.2em;

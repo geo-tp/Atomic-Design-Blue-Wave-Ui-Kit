@@ -30,13 +30,13 @@ export const Mention = (props: { children: string; rounded: boolean }) => {
 };
 
 export const Icon = (props: {
-  children: ReactNode;
+  icon: string;
   alternativeColor: boolean;
   size: number;
 }) => {
   return (
     <StyledIcon alternativeColor={false} size={props.size}>
-      {props.children}
+      <i className={`fa fa-${props.icon}`}></i>
     </StyledIcon>
   );
 };
