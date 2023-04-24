@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/Atomic-Design-Blue-Wave-Ui-Kit",
+  "homepage": "https://geo-tp.github.io/Atomic-Design-Blue-Wave-Ui-Kit",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
