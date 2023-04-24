@@ -14,6 +14,11 @@ export interface IButtonBase {
   children: ReactNode;
 }
 
+export interface IButtonSize extends IButtonBase {
+  width: string;
+  height: string;
+}
+
 export const ButtonPagination = (props: IButtonBase) => {
   return (
     <StyledButtonPagination
@@ -25,12 +30,14 @@ export const ButtonPagination = (props: IButtonBase) => {
   );
 };
 
-export const ButtonAction = (props: IButtonBase) => {
+export const ButtonAction = (props: IButtonSize) => {
   return (
     <StyledButtonAction
       alternativeColor={props.alternativeColor}
       onClick={(e) => props.onClick(e)}
       disabled={props.disabled}
+      // width={props.width}
+      height={props.height}
     >
       {props.children}
     </StyledButtonAction>

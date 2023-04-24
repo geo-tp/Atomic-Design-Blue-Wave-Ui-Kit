@@ -6,6 +6,7 @@ export const StyledHeader = styled.div`
   color: ${(props) => props.theme.colorFont1};
 
   & h1 {
+    font-size: 28px;
   }
 
   & h2 {

@@ -31,11 +31,12 @@ export const StyledCheckBox = styled.div<{ checked: boolean }>`
 `;
 
 export const StyledInput = styled.input<{ alternativeColor: boolean }>`
-  height: 40px;
+  height: 30px;
   display: flex;
   align-items: center;
   padding-left: 10px;
   border-radius: 8px;
+  width: 220px;
 
   color: ${(props) => props.theme.colorFont1};
   background-color: ${(props) =>
@@ -43,10 +44,15 @@ export const StyledInput = styled.input<{ alternativeColor: boolean }>`
   border: 1px solid
     ${(props) =>
       props.alternativeColor ? props.theme.colorBG6 : props.theme.colorFont2};
+
+  &:focus {
+    outline: none;
+    border: 1px solid ${(props) => props.theme.colorAlt1};
+  }
 `;
 
 export const StyledSelect = styled.select<{ alternativeColor: boolean }>`
-  height: 35px;
+  height: 30px;
   display: flex;
   align-items: center;
   border-radius: 8px;

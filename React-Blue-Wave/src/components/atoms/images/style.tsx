@@ -11,3 +11,10 @@ export const StyledUserImage = styled.img`
   height: 33px;
   object-fit: cover;
 `;
+
+export const StyledLogo = styled.img<{ width: string; height: string }>`
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
+  margin-left: 10px;
+  margin-right: 10px;
+`;

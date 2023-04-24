@@ -52,15 +52,15 @@ export const StyledChip = styled.span<{
       ? props.theme[`colorAlt${props.fontColor}`]
       : props.theme[`colorFont1`]};
   border-radius: 20px;
+  font-weight: bold;
   padding: 1px 12px;
   padding-left: 4px;
 
   & span {
-    opacity: 0.8;
+    padding-left: 5px;
   }
 
   & i {
     padding-right: 4px;
-    opacity: 0.8;
   }
 `;

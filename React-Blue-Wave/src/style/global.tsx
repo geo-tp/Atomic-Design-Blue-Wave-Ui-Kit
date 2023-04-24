@@ -16,7 +16,9 @@ const GlobalStyle = createGlobalStyle`
     padding: 30px ;
   }
 
-
+  & button {
+    cursor: pointer;
+  }
 `;
 
 export default GlobalStyle;
